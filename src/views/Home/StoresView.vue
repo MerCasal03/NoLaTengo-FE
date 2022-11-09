@@ -8,6 +8,7 @@
         <option value="all">Ver todas</option>
       </select>
     </form>
+    <h1>Estamos trabajando en ello...</h1>
   </div>
 </template>
 
@@ -47,6 +48,9 @@ export default {
   background-color: #e4a82f;
   height: 109vh;
   margin-top: -9%;
-
+}
+h1{
+  font-family: "Comfortaa", cursive;
+  color: black;
 }
 </style>

@@ -14,6 +14,7 @@ import CollectionView from "@/views/Home/Profile/CollectionView";
 import MarketView from "@/views/Home/Trade/MarketView";
 import MyTradesView from "@/views/Home/Trade/MyTradesView";
 import MuseoView from "@/views/Home/MuseoView";
+import notFound from "@/components/notFound";
 
 
 
@@ -57,6 +58,7 @@ const routes = [
                 ]
             },
             {path: 'stores', name: "stores", component: StoresView},
+            {path: '/:pathMatch(.*)*', component: notFound}
         ]
     },
 

@@ -12,7 +12,8 @@
     </div>
     <div class="mundial3">
       <img src="../assets/img/mundial3.jpg" alt="15%">
-      <p>Mundial 1978 Argentina</p>
+      <p>Mundial 1978</p>
+      <p>País ganador Argentina</p>
     </div>
     <br>
     <div class="mundial4">
