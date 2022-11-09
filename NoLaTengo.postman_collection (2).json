@@ -1,0 +1,580 @@
+{
+	"info": {
+		"_postman_id": "fa5212fb-8d67-4668-8882-045f38943393",
+		"name": "NoLaTengo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "User",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/v1/users/:user_id",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"v1",
+								"users",
+								":user_id"
+							],
+							"variable": [
+								{
+									"key": "user_id",
+									"value": "a@gmail.com"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/v1/users",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"v1",
+								"users"
+							],
+							"query": [
+								{
+									"key": null,
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"address\": \"Maipu 233\",\r\n\"email\": \"a@gmail.com\",\r\n\"lastname\": \"Tony\",\r\n\"name\": \"Levin\",\r\n\"password\": \"123\",\r\n\"tel\": \"+54 9 3364379499\",\r\n\"neighborhood\" : \"Belgrano\",\r\n\"cards\": [{\"id\": \"TM58\", \"amount\": 2}]\r\n }\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/v1/users",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"v1",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"address\": \"Maipu 235\",\r\n\"email\": \"matiaspierri@gmail.com\",\r\n\"lastname\": \"Pierri\",\r\n\"name\": \"Matias\",\r\n\"password\": \"fulbo2022\",\r\n\"tel\": \"+54 9 3364379499\",\r\n\"neighborhood\" : \"Belgrano\",\r\n\"cards\": [{\"id\": \"TM58\", \"amount\": 2}]\r\n }\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/v1/users/:userid",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"v1",
+								"users",
+								":userid"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"key": "userid",
+									"value": "MPc48eddb8"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/v1/users/:userid",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"v1",
+								"users",
+								":userid"
+							],
+							"variable": [
+								{
+									"key": "userid",
+									"value": "MPc48eddb8"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Users Cards",
+			"item": [
+				{
+					"name": "User Cards",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/v1/users/:user_id/cards",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"v1",
+								"users",
+								":user_id",
+								"cards"
+							],
+							"variable": [
+								{
+									"key": "user_id",
+									"value": "LT7251111d"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Card to User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n            \"amount\": 1,\r\n            \"id\": \"LM27\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/v1/users/:user_id/cards",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"v1",
+								"users",
+								":user_id",
+								"cards"
+							],
+							"variable": [
+								{
+									"key": "user_id",
+									"value": "LT7251111d"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User Card",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/v1/users/:user_id/cards?card_id=NO31",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"v1",
+								"users",
+								":user_id",
+								"cards"
+							],
+							"query": [
+								{
+									"key": "card_id",
+									"value": "NO31"
+								}
+							],
+							"variable": [
+								{
+									"key": "user_id",
+									"value": "MPc48eddb8"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Amount",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"amount\": 1}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/v1/users/:user_id/cards?card_id=LM27",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"v1",
+								"users",
+								":user_id",
+								"cards"
+							],
+							"query": [
+								{
+									"key": "card_id",
+									"value": "LM27"
+								}
+							],
+							"variable": [
+								{
+									"key": "user_id",
+									"value": "LT7251111d"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Cards Library",
+			"item": [
+				{
+					"name": "Cards",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/v1/attachments",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"v1",
+								"attachments"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "GER",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cards Country",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/v1/attachments?country=ARG",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"v1",
+								"attachments"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "ARG"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Trades",
+			"item": [
+				{
+					"name": "Trades",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/v1/trades",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"v1",
+								"trades"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Trade",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"offer\":\"LM27\",\r\n    \"request\":\"CR16\",\r\n    \"publisher\":\"MPc48eddb8\",\r\n    \"counterOffers\":[]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/v1/trades",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"v1",
+								"trades"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Trade",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/v1/trades/:trade_id",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"v1",
+								"trades",
+								":trade_id"
+							],
+							"variable": [
+								{
+									"key": "trade_id",
+									"value": "TDcd1f29e0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Trade",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"offer\":\"LM27\",\r\n    \"request\":\"CR16\",\r\n    \"publisher\":\"MPc48eddb8\",\r\n    \"counterOffers\":[\r\n        {\r\n    \"userId\": \"tjcf1785c4\",\r\n    \"message\": \"Paza Belgrano, viernes 10am\",\r\n    \"status\": \"send\"\r\n    }\r\n]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/v1/trades/:trade_id",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"v1",
+								"trades",
+								":trade_id"
+							],
+							"variable": [
+								{
+									"key": "trade_id",
+									"value": "TDb6eebd64"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/api/v1/trades/:trade_id",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"v1",
+								"trades",
+								":trade_id"
+							],
+							"variable": [
+								{
+									"key": "trade_id",
+									"value": "TDd311469f"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
