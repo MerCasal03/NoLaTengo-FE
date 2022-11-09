@@ -1,11 +1,15 @@
 <template>
-  <div class="museo">hola</div>
+  <div class="museo">
+    <museo/>
+  </div>
 </template>
 
 <script>
+import Museo from "@/components/museo";
 export default {
   name: "MuseoView",
   components:{
+    Museo
 
   }
 }
@@ -13,13 +17,8 @@ export default {
 
 <style scoped>
 .museo{
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
   background-color: #e4a82f;
-  height: 109vh;
+  height: 300vh;
   margin-top: -9%;
 }
 </style>

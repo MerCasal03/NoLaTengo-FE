@@ -1,5 +1,6 @@
 import * as Vue from 'vue';
 import * as VueRouter from 'vue-router';
+import 'leaflet/dist/leaflet.css';
 
 import App from '@/App'
 import LoginView from '../views/LoginView.vue'
