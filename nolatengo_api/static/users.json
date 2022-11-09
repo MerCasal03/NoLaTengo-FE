@@ -1,0 +1,101 @@
+[
+    {
+        "address": null,
+        "email": "tom@gmail.com",
+        "lastname": "jerry",
+        "name": "tim",
+        "password": "1234",
+        "tel": null,
+        "neighborhood": null,
+        "cards": [],
+        "id": "tjcf1785c4"
+    },
+    {
+        "address": "Av. Falc\u00f3n 213",
+        "email": "jaltamiranda@gmail.com",
+        "lastname": "Altamiranda",
+        "name": "Julian",
+        "password": "azulyjuanma2001",
+        "tel": "+54 9 3364379499",
+        "id": "JA32bf28b8",
+        "neighborhood": "Palermo",
+        "cards": [
+            {
+                "amount": 2,
+                "id": "NO31"
+            },
+            {
+                "id": "LM27",
+                "amount": 10
+            }
+        ]
+    },
+    {
+        "address": "Maipu 235",
+        "email": "matiaspierri@gmail.com",
+        "lastname": "Pierri",
+        "name": "Matias",
+        "password": "fulbo2022",
+        "tel": "+54 9 3364379499",
+        "neighborhood": "Belgrano",
+        "cards": [
+            {
+                "id": "CR16",
+                "amount": 1
+            },
+            {
+                "amount": 2,
+                "id": "TM71"
+            }
+        ],
+        "id": "MPc48eddb8"
+    },
+    {
+        "address": "Maipu 233",
+        "email": "a@gmail.com",
+        "lastname": "Tony",
+        "name": "Levin",
+        "password": "123",
+        "tel": "+54 9 3364379499",
+        "neighborhood": "Belgrano",
+        "cards": [
+            {
+                "id": "TM58",
+                "amount": 2
+            },
+            {
+                "amount": 4,
+                "id": "LM27"
+            },
+            {
+                "amount": 1,
+                "id": "CR16"
+            },
+            {
+                "amount": 1,
+                "id": "NO31"
+            }
+        ],
+        "id": "LT7251111d"
+    },
+    {
+        "address": null,
+        "email": "mdel@hotmail.com",
+        "lastname": "del",
+        "name": "male",
+        "password": "12345",
+        "tel": null,
+        "neighborhood": null,
+        "cards": [
+            {
+                "amount": 3,
+                "id": "LM27"
+            },
+            {
+                "amount": 2,
+                "id": "CR16"
+            }
+        ],
+        "id": "md12032c93"
+    }
+]
