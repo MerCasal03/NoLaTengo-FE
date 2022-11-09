@@ -28,7 +28,7 @@
     <input class="form-submit" type="button" value="Iniciar Sesión" tabindex="30" @click="login(email, password)">
 
     <!---------------------------------------------------------------------------------------------------------------------------------------------------->
-    <h1>Registrarse</h1>
+    <h1 class="registro">Registrarse</h1>
 
     <label class="login-form__label">Nombre:</label>
     <input
@@ -198,10 +198,82 @@ h1{
 }
 .forms{
   background-color: #e4a82f;
-  height: 100vh;
+  height: 105vh;
   width: 100%;
   margin-top: -5%;
 }
-
+.form-submit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left:40%;
+  width: 20%;
+  height: 50px;
+  background: #8e1f30;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+  padding-left: 2px;
+  margin-top: 1%;
+  text-decoration: none;
+}
+.form-submit:hover{
+  background-color: #e4a82f;
+  text-decoration: none;
+  border: #8e1f30 solid;
+}
+#form-submit-toregister{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left:40%;
+  width: 20%;
+  height: 50px;
+  background: #8e1f30;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+  padding-left: 2px;
+  margin-top: 1%;
+  text-decoration: none;
+}
+#form-submit-toregister:hover{
+  background-color: #e4a82f;
+  text-decoration: none;
+  border: #8e1f30 solid;
+}
+.registro{
+  margin-top: 1%;
+}
+p{
+  font-family: "Comfortaa", cursive;
+  color: black;
+}
+input{
+  width: 30%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 0.375rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-top: -2%;
+}
 
 </style>

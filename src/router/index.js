@@ -12,6 +12,7 @@ import SettingsView from "@/views/Home/Profile/SettingsView";
 import CollectionView from "@/views/Home/Profile/CollectionView";
 import MarketView from "@/views/Home/Trade/MarketView";
 import MyTradesView from "@/views/Home/Trade/MyTradesView";
+import MuseoView from "@/views/Home/MuseoView";
 
 
 
@@ -31,6 +32,7 @@ const routes = [
         redirect: {name: 'banner'},
         children: [
             {path: 'home', name: "banner", component: BannerView},
+            {path:'museo', name: "museo", component: MuseoView},
             {
                 path: 'profile',
                 name: "profile",

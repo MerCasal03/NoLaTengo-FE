@@ -3,6 +3,7 @@
     <router-link :to="{name: 'banner'}">Home</router-link>
     <router-link :to="{name: 'trade'}">Trade</router-link>
     <router-link :to="{name: 'stores'}">Stores</router-link>
+    <router-link :to="{name: 'museo'}">Museo</router-link>
     <router-link :to="{name: 'profile'}">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
         <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>

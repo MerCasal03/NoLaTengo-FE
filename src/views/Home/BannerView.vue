@@ -50,12 +50,39 @@ p{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  animation: bgChange 20s linear infinite;
   right: 0;
   left: 0;
   top: 0;
   bottom: 0;
   margin-top: -6%;
   overflow-x: hidden;
-  height: 100vh;
+  height: 103vh;
+}
+@keyframes bgChange{
+  0%{
+    background-image: url("@/assets/img/pel.jpg");
+  }
+  20%{
+    background-image: url("@/assets/img/pel.jpg");
+  }
+  25%{
+    background-image: url("@/assets/img/copa2.jpg");
+  }
+  45%{
+    background-image: url("@/assets/img/copa2.jpg");
+  }
+  50%{
+    background-image: url("@/assets/img/fans2.jpg");
+  }
+  70%{
+    background-image: url("@/assets/img/fans2.jpg");
+  }
+  75%{
+    background-image: url("@/assets/img/catar-banderas.jpg");
+  }
+  95%{
+    background-image: url("@/assets/img/catar-banderas.jpg");
+  }
 }
 </style>

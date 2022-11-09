@@ -1,19 +1,25 @@
 <template>
-  <Header/>
-  <h1>Museo</h1>
+  <div class="museo">hola</div>
 </template>
 
 <script>
-import Header from "@/components/Header";
 export default {
   name: "MuseoView",
   components:{
-    Header
 
   }
 }
 </script>
 
 <style scoped>
-
+.museo{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e4a82f;
+  height: 109vh;
+  margin-top: -9%;
+}
 </style>

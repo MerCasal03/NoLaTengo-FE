@@ -21,7 +21,7 @@ export default {
   flex-direction: column;
   align-items: center;
   background-color: #e4a82f;
-  height: 100vh;
+  height: 109vh;
   margin-top: -9%;
 }
 button{
