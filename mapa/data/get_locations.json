@@ -1,0 +1,134 @@
+{
+  "type": "FeatureCollection",
+  "name": "locations",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "barrio": "CABA",
+        "local": "kiosco Miapú",
+        "precio": "250",
+        "stock": "Disponible",
+        "X": "-58.37678511609527",
+        "Y": "-34.60240209087204"},
+        "geometry": {
+          "coordinates": [
+            -58.37678511609527,
+            -34.60240209087204,
+            0.0
+          ],
+          "type": "Point"
+        }
+      },
+    {
+      "type": "Feature",
+      "properties": {
+        "barrio": "CABA",
+        "local": "Vintage Club (LOCAL 15)",
+        "precio": "350",
+        "stock": "Disponible",
+        "X": "-58.38496677116357",
+        "Y": "-34.595769071530285"},
+      "geometry": {
+        "coordinates": [
+          -58.38496677116357,
+          -34.595769071530285,
+          0.0
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "barrio": "CABA",
+        "local": "Club24 market",
+        "precio": "250",
+        "stock": "Disponible",
+        "X": "-58.410794499999994",
+        "Y": "-34.58062668309619"},
+      "geometry": {
+        "coordinates": [
+          -58.410794499999994,
+          -34.58062668309619,
+          0.0
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "barrio": "CABA",
+        "local": "Pellegrini 435",
+        "precio": "250",
+        "stock": "Disponible",
+        "X": "-58.38054857116357",
+        "Y": "-34.60303199621335"},
+      "geometry": {
+        "coordinates": [
+          -58.38054857116357,
+          -34.60303199621335,
+          0.0
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "barrio": "CABA",
+        "local": "Avenida Pueyrredon 700",
+        "precio": "250",
+        "stock": "Disponible",
+        "X": "-58.40501307116355",
+        "Y": "-34.601734738074065"},
+      "geometry": {
+        "coordinates": [
+          -58.40501307116355,
+          -34.601734738074065,
+          0.0
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "barrio": "provincia",
+        "local": "Figuritas LP",
+        "precio": "250",
+        "stock": "Disponible",
+        "X": "-57.95139944446056",
+        "Y": "-34.90331009286291"},
+      "geometry": {
+        "coordinates": [
+          -57.95139944446056,
+          -34.90331009286291,
+          0.0
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "barrio": "provincia",
+        "local": "Figuritas Ezeiza",
+        "precio": "250",
+        "stock": "Disponible",
+        "X": "-58.52373772898515",
+        "Y": "-34.78951255162714"},
+      "geometry": {
+        "coordinates": [
+          -58.52373772898515,
+          -34.78951255162714,
+          0.0
+        ],
+        "type": "Point"
+      }
+    }
+
+  ]
+}
+

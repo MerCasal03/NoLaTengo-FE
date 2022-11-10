@@ -1,0 +1,30 @@
+[
+    {
+        "barrio": "Microcentro",
+        "nombre": "-34.60240209087204, -58.37678511609527",
+        "coordenadas": "-34.60240209087204, -58.37678511609527",
+        "precio": "250",
+        "stock": "Disponible"
+    },
+    {
+        "barrio": "Microcentro",
+        "nombre": "Vintage Club (LOCAL 15)",
+        "coordenadas": "-34.595769071530285, -58.38496677116357",
+        "precio": "250",
+        "stock": "Disponible"
+    },
+    {
+        "barrio": "Microcentro",
+        "nombre": "Club24 market",
+        "coordenadas": "-34.58062668309619, -58.410794499999994",
+        "precio": "200",
+        "stock": "Disponible"
+    },
+    {
+        "barrio": "Microcentro",
+        "nombre": "Pellegrini 435",
+        "coordenadas": "-34.60303199621335, -58.38054857116357",
+        "precio": "250",
+        "stock": "No Disponible"
+    }
+]

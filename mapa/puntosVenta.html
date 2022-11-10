@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/puntosVenta.css">
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Nunito&display=swap" rel="stylesheet">
+    <title>Puntos de Venta</title>
+</head>
+<body>
+<header class="header"></header>
+<div class="container-menu-landing-page">
+    <a href="#" style="color: white; text-decoration: none">Home</a>
+    <a href="#" style="color:#e4a82f ; text-decoration: none">Puntos de venta</a>
+    <a href="#" style="color: white; text-decoration: none">Puntos de intercambio</a>
+    <a href="#" style="color: white; text-decoration: none">Museo</a>
+    <a href="#" style="color: white; text-decoration: none">
+        <div class="persona">
+            <img src="person-circle.svg">
+        </div>
+    </a>
+</div>
+    <div class="container">
+        <form class="locations">
+            <select class="form-select" name="loc" id="loc">
+                <option value="none" selected>Seleccione provincia</option>
+                <option value="CABA">CABA</option>
+                <option value="provincia">Provincia</option>
+                <option value="all">Ver todas</option>
+            </select>
+        </form>
+    </div>
+<br>
+    <div id="mapaPuntos"></div>
+</body>
+<script src="puntosVenta.js"></script>
+</html>

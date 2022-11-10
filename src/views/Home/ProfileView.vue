@@ -1,6 +1,5 @@
 <template>
   <div class="profile">
-    <router-link :to="{name: 'settings'}"><button>Settings</button></router-link>
     <router-link :to="{name: 'collection'}"><button>My Collection</button></router-link>
     <router-view></router-view>
   </div>
